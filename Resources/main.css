@@ -43,6 +43,8 @@ h2 {
     text-align: center;
     padding: 0;
     margin-top: 43px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 h2 a {
     display: block;
@@ -65,27 +67,37 @@ p {
 .heightspace {
     min-height: 25px;
 }
-.img-container {
+.profile-picture {
     background-color: #B5B5B5;
     height: 400px;
 }
 body {
     margin: 0;
 }
-@media only screen and (max-width: 1240px) {
-    h1,h2,h3,{
-        font-size: 1.5em ;
-    }
-}
-@media only screen and (max-width: 900px) {
-    h1,h2 {
-        font-size: 1em;
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 2em;
         text-align: center;
+    }
+    h2 {
+        font-size: 1.5em;
+        margin-top: 33px;
     }
     h3, a{
         font-size: 0.8em !important;
     }
-    h2 a{
-        font-size: 0.75em !important;
+}
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.1em;
+        margin-top: 24px;
+    }
+    h3, a{
+        font-size: 0.8em !important;
     }
 }
