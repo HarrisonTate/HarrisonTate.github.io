@@ -11,60 +11,6 @@
 .tencol{width: 83.33%; float: left;}
 .elevencol{width: 91.66%; float: left;}
 .twelvecol{width: 100%; float: left;}
-h1 {
-    font-size: 2.5em;
-    text-align: center;
-}
-h2 {
-    font-size: 2em;
-    text-align: center;
-    padding: 10px;
-    margin-top: 28px;
-}
-
-h3 {
-    font-size: 1.5em;
-    margin:  20px auto;
-    text-align: center;
-    color: white;
-}
-h3 a {
-    display: block;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin:  20px auto;
-    text-align: center;
-    color: white;
-}
-h3 a:hover {
-    display: block;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin:  20px auto;
-    text-align: center;
-    transition: 0.8s;
-    color: #444;
-}
-h2 a {
-    display: block;
-    text-decoration: none;
-    font-size: 0.7em;
-    text-align: center;
-    transition: 0.7s;
-    color: white ;
-}
-h2 a:hover {
-    display: block;
-    text-decoration: none;
-    font-size: 0.7em;
-    text-align: center;
-    transition: 0.8s;
-    color: #444;
-}
-
-p {
-    text-align: left;
-}
 #continer {
     max-width: 1440px;
     min-height: 1000px;
@@ -78,18 +24,43 @@ p {
     display: block;
     background-color: #0F1E3C;
 }
-#navbarLinks {
-  float: left;
-  display: block;
-  text-decoration: none;
-  margin: 15px auto;
-  font-size: 2em;
+h1 {
+    font-size: 2.5em;
+    text-align: center;
 }
-.navbar a h1:hover {
-    transition: 0.8s;
+h1 a {
     text-decoration: none;
     color: #DD362B;
     text-shadow: 2px 2px #fff;
+}
+h1 a:hover {
+    text-align: center;
+    text-decoration: none;
+    transition: 0.8s;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin-top: 43px;
+}
+h2 a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.7em;
+    text-align: center;
+    color: white ;
+}
+h2 a:hover {
+    display: block;
+    text-decoration: none;
+    font-size: 0.7em;
+    text-align: center;
+    transition: 0.8s;
+    color: #444;
+}
+p {
+    text-align: left;
 }
 .heightspace {
     min-height: 25px;
@@ -101,13 +72,6 @@ p {
 body {
     margin: 0;
 }
-h1 a {
-    text-decoration: none;
-    color: #DD362B;
-    text-shadow: 2px 2px #fff;
-}
-
-
 @media only screen and (max-width: 1240px) {
     h1,h2,h3,{
         font-size: 1.5em ;
