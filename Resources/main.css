@@ -28,7 +28,7 @@ body {margin: 0;}
     text-decoration: none;
 }
 h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     text-align: center;
 }
 h1 a {
@@ -45,21 +45,21 @@ h2 {
     font-size: 2em;
     text-align: center;
     padding: 0;
-    margin-top: 43px;
+    margin-top: 42px;
     overflow: hidden;
     white-space: nowrap;
 }
 h2 a {
     display: block;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 0.6em;
     text-align: center;
     color: white ;
 }
 h2 a:hover {
     display: block;
     text-decoration: none;
-    font-size: 0.7em;
+    font-size: 0.6em;
     text-align: center;
     transition: 0.8s;
     color: #444;
@@ -73,10 +73,15 @@ p {
 .profile-picture {
     background-color: #B5B5B5;
 }
-img {
+#pp {
     margin: 45px 0;
     max-width: 362px;
     max-height: 346px;
+}
+div a img {
+    float: left;
+    width: 32%;
+    margin: 8.5px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -92,7 +97,7 @@ img {
     h3, a{
         font-size: 0.8em !important;
     }
-    img {
+    #PP {
             margin: 45px 0;
     }
     .sticky + .content {
@@ -112,7 +117,7 @@ img {
     h3, a{
         font-size: 0.8em !important;
     }
-    img {
+    #pp {
             margin: 15px 0;
     }
     .sticky + .content {
