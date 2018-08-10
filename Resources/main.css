@@ -82,6 +82,7 @@ img {
         font-size: 2em;
         text-align: center;
     }
+    h1 a {text-shadow: 0.7px 0.7px #fff;}
     h2 {
         font-size: 1.5em;
         margin-top: 28px;
@@ -98,6 +99,7 @@ img {
         font-size: 0.8em;
         text-align: center;
     }
+    h1 a {text-shadow: 0.5px 0.5px #fff;}
     h2 {
         font-size: 0.6em;
         margin-top: 15px;
