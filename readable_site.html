@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html onload="starter()" lang="en">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="UTF-8">
@@ -12,11 +12,11 @@
     <link rel="Stylesheet" href="Resources/main.css">
 </head>
 <body>
-    <header class="navbar twelvecol">
+    <header id="navbar" class="twelvecol">
         <div class="heightspace fourcol"></div>
         <div class="fourcol">
             <div class="heightspace onecol"></div>
-            <h1 class="ninecol"><a href="#">Harrison Tate</a></h1>
+            <h1 class="ninecol"><a href="https://harrisontate.github.io/">Harrison Tate</a></h1>
             <div class="heightspace twocol"></div>
         </div>
         <div class="fourcol">
@@ -27,14 +27,26 @@
             <div class="heightspace twocol"></div>
         </div>
     </header>
-    <main id="continer">
-        <div class="img-container twelvecol">
-
+    <main id="continer" class="content">
+        <div class="heightspace twelvecol"></div>
+        <div class="profile-picture twelvecol">
+            <div class="heightspace fourcol"></div>
+            <div class="fourcol">
+                <div class="heightspace onecol"></div>
+                <img id="pp" class="tencol"src="Resources/harrisonPP.png">
+                <div class="heightspace onecol"></div>
+            </div>
+            <div class="heightspace fourcol"></div>
         </div>
+        <div class="heightspace twelvecol"></div>
+        <div id="instafeed" class="twelvecol"></div>
 
     </main>
     <footer>
     </footer>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="Resources/instafeed.min.js"></script>
 <script src="Resources/HT.js"></script>
+<script type="text/javascript" src="Resources/config.js"></script>
 </html>
