@@ -93,18 +93,18 @@ div a img {
     padding: 12px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1220px) {
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
     }
     h1 a {text-shadow: 0.7px 0.7px #fff;}
     h2 {
-        font-size: 1.5em;
-        margin-top: 28px;
+        font-size: 1em;
+        margin-top: 20px;
     }
     h3, a{
-        font-size: 1.5em !important;
+        font-size: 1em !important;
     }
     #PP {
             margin: 45px 0;
@@ -121,7 +121,7 @@ div a img {
     h1 a {text-shadow: 0.5px 0.5px #fff;}
     h2 {
         font-size: 0.6em;
-        margin-top: 15px;
+        margin-top: 11px;
     }
     h3, a{
         font-size: 0.8em !important;
