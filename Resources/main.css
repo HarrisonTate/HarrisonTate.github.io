@@ -1,4 +1,5 @@
 * {box-sizing: border-box; font-family: Futura, "Trebuchet MS", Arial, sans-serif;}
+body {margin: 0;}
 .onecol{width: 8.33%; float: left;}
 .twocol{width: 16.66%; float: left;}
 .threecol{width: 24.99%; float: left;}
@@ -69,10 +70,11 @@ p {
 }
 .profile-picture {
     background-color: #B5B5B5;
-    height: 400px;
 }
-body {
-    margin: 0;
+img {
+    margin: 45px 0;
+    max-width: 362px;
+    max-height: 346px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -82,10 +84,13 @@ body {
     }
     h2 {
         font-size: 1.5em;
-        margin-top: 33px;
+        margin-top: 28px;
     }
     h3, a{
         font-size: 0.8em !important;
+    }
+    img {
+            margin: 45px 0;
     }
 }
 @media only screen and (max-width: 745px) {
@@ -99,5 +104,8 @@ body {
     }
     h3, a{
         font-size: 0.8em !important;
+    }
+    img {
+            margin: 15px 0;
     }
 }
