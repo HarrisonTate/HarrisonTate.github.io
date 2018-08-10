@@ -13,7 +13,7 @@ body {margin: 0;}
 .elevencol{width: 91.66%; float: left;}
 .twelvecol{width: 100%; float: left;}
 #continer {
-    max-width: 1440px;
+    max-width: 1240px;
     min-height: 1000px;
     width: 100%;
     margin: 0 auto;
@@ -64,6 +64,15 @@ h2 a:hover {
     transition: 0.8s;
     color: #444;
 }
+h3 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
 p {
     text-align: left;
 }
@@ -80,8 +89,8 @@ p {
 }
 div a img {
     float: left;
-    width: 32%;
-    margin: 8.5px;
+    width: 33.33%;
+    padding: 12px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -95,7 +104,7 @@ div a img {
         margin-top: 28px;
     }
     h3, a{
-        font-size: 0.8em !important;
+        font-size: 1.5em !important;
     }
     #PP {
             margin: 45px 0;
