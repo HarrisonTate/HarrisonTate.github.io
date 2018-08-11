@@ -88,8 +88,9 @@ p {
     max-height: 346px;
 }
 div a img {
+    box-sizing: inherit;
     float: left;
-    max-width: 33%;
+    max-width: 20%;
     padding: 12px;
 }
 #finnish-up {
@@ -156,4 +157,24 @@ h4{
 }
 .sticky + .content {
   padding-top: 107px;
+}
+#img-container div img {
+    padding: 15px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;/
+    flex-wrap: wrap;
+    padding: 1px;
+}
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 1px;
+}
+
+.column img {
+    vertical-align: middle;
 }
