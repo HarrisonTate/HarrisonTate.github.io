@@ -89,14 +89,13 @@ p {
 div a img {
     box-sizing: inherit;
     float: left;
-    max-width: 20%;
     padding: 12px;
 }
 #finnish-up {
     background-color: #444;
     margin-top: 20px;
 }
-h4{
+h4 {
     color: #ECECEC;
     font-size: 1.5em;
     overflow: hidden;
