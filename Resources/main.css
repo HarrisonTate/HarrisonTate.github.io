@@ -14,7 +14,6 @@ body {margin: 0;}
 .twelvecol{width: 100%; float: left;}
 #continer {
     max-width: 1240px;
-    min-height: 1000px;
     width: 100%;
     margin: 0 auto;
 }
