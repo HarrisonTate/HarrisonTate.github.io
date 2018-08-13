@@ -79,9 +79,10 @@ p {
     min-height: 25px;
 }
 .profile-picture {
-    background-color: #B5B5B5;
+    background-color: #6e7376;
 }
 #pp {
+    border-radius: 15%;
     margin: 45px 0;
     max-width: 362px;
     max-height: 346px;
