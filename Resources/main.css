@@ -76,7 +76,6 @@ h3 {
     font-size: 1.5em;
     float: left;
     padding: 0;
-    margin: 133px 0;
 
 }
 .heightspace {
@@ -99,9 +98,6 @@ div a img {
 #finnish-up {
     background-color: #444;
     margin-top: 20px;
-}
-#about-img {
-    height: 450px;
 }
 h4 {
     color: #ECECEC;
@@ -128,6 +124,9 @@ h4 {
     #PP {
         margin: 45px 0;
     }
+    #about-desc {
+        font-size: 1.2em;
+    }
     .sticky + .content {
       padding-top: 80px !important;
     }
@@ -144,6 +143,11 @@ h4 {
     }
     h3, a, h4{
         font-size: 0.8em !important;
+    }
+    #about-desc {
+        font-size: 0.65em;
+        min-height: 120px;
+        min-width: 120px;
     }
     #pp {
             margin: 15px 0;
