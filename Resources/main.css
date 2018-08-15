@@ -30,12 +30,12 @@ h1 {
     font-size: 2.2em;
     text-align: center;
 }
-h1 a {
+#header-title {
     text-decoration: none;
     color: #DD362B;
     text-shadow: 2px 2px #fff;
 }
-h1 a:hover {
+#header-title :hover {
     text-align: center;
     text-decoration: none;
     transition: 0.8s;
@@ -118,7 +118,7 @@ h4 {
         font-size: 1.5em;
         text-align: center;
     }
-    h1 a {text-shadow: 0.7px 0.7px #fff;}
+    #header-title  {text-shadow: 0.7px 0.7px #fff;}
     h2 {
         font-size: 1em;
         margin-top: 20px;
@@ -145,7 +145,7 @@ h4 {
         font-size: 0.8em;
         text-align: center;
     }
-    h1 a {text-shadow: 0.5px 0.5px #fff;}
+    #header-title  {text-shadow: 0.5px 0.5px #fff;}
     h2 {
         font-size: 0.6em;
         margin-top: 11px;
