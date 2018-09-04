@@ -198,3 +198,4 @@ h4 {
 .column img {
     vertical-align: middle;
 }
+img{-webkit-user-drag: none;} /*stops img ghost dragging */
