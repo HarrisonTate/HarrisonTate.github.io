@@ -142,6 +142,9 @@ h4 {
     #navbar a{
         padding-top: 5px;
     }
+    .progress-bar {
+      height: 5px !important;
+    }
 }
 @media only screen and (max-width: 745px) {
     h1 {
@@ -173,6 +176,9 @@ h4 {
     #insta-link {
         height: 100px;
         width: 100px;
+    }
+    .progress-bar {
+      height: 3px !important;
     }
 }
 .content {
