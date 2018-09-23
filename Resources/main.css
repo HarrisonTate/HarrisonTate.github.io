@@ -94,7 +94,7 @@ div a img {
 }
 #finnish-up {
     background-color: #444;
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 h4 {
     color: #ECECEC;
@@ -122,15 +122,12 @@ h4 {
     }
 }
 .content {
-  padding: 16px 0;
+  padding: 16vh 0;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
-.sticky + .content {
-  padding-top: 20vh;
 }
 #img-container div img {
     padding: 4%;
