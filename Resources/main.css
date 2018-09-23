@@ -91,7 +91,6 @@ h3 {
 div a img {
     box-sizing: inherit;
     float: left;
-    padding: 12px;
 }
 #finnish-up {
     background-color: #444;
@@ -104,13 +103,9 @@ h4 {
     white-space: nowrap;
     text-align: center;
     padding: 0;
-    margin: 10px;
 }
 @media only screen and (max-width: 1220px) {
 
-    h4 {
-        font-size: 1vw !important;
-    }
     #PP {
         margin: 45px 0;
     }
@@ -119,9 +114,6 @@ h4 {
     }
 }
 @media only screen and (max-width: 745px) {
-    h4{
-        font-size: 0.7vw !important;
-    }
     #pp {
             margin: 15px 0;
     }
@@ -138,7 +130,7 @@ h4 {
   width: 100%;
 }
 .sticky + .content {
-  padding-top: 10vh;
+  padding-top: 20vh;
 }
 #img-container div img {
     padding: 4%;
