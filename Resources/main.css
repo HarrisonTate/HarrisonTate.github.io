@@ -122,12 +122,15 @@ h4 {
     }
 }
 .content {
-  padding: 16vh 0;
+  padding: 1vh 0;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.sticky + .content {
+  padding-top: 8vw;
 }
 #img-container div img {
     padding: 4%;
