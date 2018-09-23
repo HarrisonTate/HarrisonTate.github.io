@@ -13,8 +13,7 @@ body {margin: 0;}
 .elevencol{width: 91.66%; float: left;}
 .twelvecol{width: 100%; float: left;}
 #continer {
-    max-width: 1240px;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -25,16 +24,16 @@ body {margin: 0;}
 #navbar a{
     display: block;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 0.5vw;
 }
 h1 {
-    font-size: 2.1em;
+    font-size: 2.5vw;
     text-align: center;
 }
 #header-title {
     text-decoration: none;
     color: #DD362B;
-    text-shadow: 2px 2px #fff;
+    text-shadow: 0.1vw 0.1vw #fff;
 }
 #header-title:hover {
     text-align: center;
@@ -42,18 +41,18 @@ h1 {
     transition: 0.8s;
 }
 h2 {
-    font-size:1.9em;
+    font-size:1.6vw;
     text-align: center;
     padding: 0;
-    margin-top: 27.5px;
+    margin: 0;
     overflow: hidden;
     white-space: nowrap;
 }
 h2 a {
     display: block;
     text-decoration: none;
-    font-size: 0.6em;
     text-align: center;
+    margin: 1.9vw 0;
     color: white ;
 }
 h2 a:hover {
@@ -65,7 +64,7 @@ h2 a:hover {
     color: #444;
 }
 h3 {
-    font-size: 2em;
+    font-size: 2vw;
     text-align: center;
     padding: 0;
     margin-top: 15px;
@@ -74,21 +73,19 @@ h3 {
     white-space: nowrap;
 }
 #about-desc {
-    font-size: 1.5em;
+    font-size: 2vw;
     float: left;
     padding: 0;
 }
 .heightspace {
-    min-height: 25px;
+    height: 2vw;
 }
 .profile-picture {
     background-color: #6e7376;
 }
 #pp {
     border-radius: 15%;
-    margin: 35px 0;
-    max-width: 400px;
-    max-height: 400px;
+    margin: 12% 0;
     padding: 0 !important;
 }
 div a img {
@@ -100,13 +97,9 @@ div a img {
     background-color: #444;
     margin-top: 20px;
 }
-#insta-link {
-    height: 200px;
-    width: 200px;
-}
 h4 {
     color: #ECECEC;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
@@ -114,68 +107,23 @@ h4 {
     margin: 10px;
 }
 @media only screen and (max-width: 1220px) {
-    h1 {
-        font-size: 1.5em;
-        text-align: center;
-    }
-    #header-title  {text-shadow: 0.7px 0.7px #fff;}
-    h2 {
-        font-size: 1em;
-        margin-top: 20px;
-    }
-    h3, h4, a{
-        font-size: 1em !important;
+
+    h4 {
+        font-size: 1vw !important;
     }
     #PP {
         margin: 45px 0;
-    }
-    #about-desc {
-        font-size: 1.2em;
-    }
-    .sticky + .content {
-      padding-top: 80px !important;
-    }
-    #insta-link {
-        height: 160px;
-        width: 160px;
-    }
-    #navbar a{
-        padding-top: 5px;
     }
     .progress-bar {
       height: 5px !important;
     }
 }
 @media only screen and (max-width: 745px) {
-    h1 {
-        font-size: 0.8em;
-        text-align: center;
-    }
-    #header-title  {text-shadow: 0.5px 0.5px #fff;}
-    h2 {
-        font-size: 0.6em;
-        margin-top: 11px;
-    }
-    h3, a, h4{
-        font-size: 0.7em !important;
-    }
-    #navbar a{
-        padding-top: 3px;
-    }
-    #about-desc {
-        font-size: 0.65em;
-        min-height: 120px;
-        min-width: 120px;
+    h4{
+        font-size: 0.7vw !important;
     }
     #pp {
             margin: 15px 0;
-    }
-    .sticky + .content {
-      padding-top: 33px !important;
-    }
-    #insta-link {
-        height: 100px;
-        width: 100px;
     }
     .progress-bar {
       height: 3px !important;
@@ -190,10 +138,10 @@ h4 {
   width: 100%;
 }
 .sticky + .content {
-  padding-top: 107px;
+  padding-top: 10vh;
 }
 #img-container div img {
-    padding: 15px;
+    padding: 4%;
 }
 .row {
     display: -ms-flexbox;
@@ -221,10 +169,9 @@ img{-webkit-user-drag: none;} /*stops img ghost dragging */
 }
 .progress-container {
   width: 100%;
-  height: 5px;
 }
 .progress-bar {
-  height: 8px;
+  height: 0.5vh;
   background: lightpink;
   width: 0%;
 }
