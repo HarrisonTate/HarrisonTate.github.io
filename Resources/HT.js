@@ -16,13 +16,13 @@ function myFunction() {
 var i;
 
 var eachImg = ["BjFQmnjnFh_", "BjFQqXDHEIb", "BjFRERWHs3v", "BjHeSKwnP0x",  "Bh_ZcF_neiE", "BgTM2MpBrB5"];
-function openNav(i) {
-    document.getElementById("myNav").style.display = "block";
+function openInstaFrame(i) {
+    document.getElementById("instaFrame").style.display = "block";
     var imgSetter = "https://instagram.com/p/" + eachImg[i] + "/embed"
     document.getElementById("iframeCenter").src = imgSetter;
 } 
-function closeNav() {
-    document.getElementById("myNav").style.display = "none";
+function closeInstaFrame() {
+    document.getElementById("instaFrame").style.display = "none";
 } 
 
     // 0 BjFQmnjnFh_ red/crane-r9-min.jpg

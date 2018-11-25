@@ -12,7 +12,6 @@ body {margin: 0;}
 .col-10 {width: 83.33%; float: left;}
 .col-11 {width: 91.66%; float: left;}
 .col-12 {width: 100%; float: left;}
-
 #continer {
     width: 95%;
     margin: 0 auto;
@@ -35,6 +34,7 @@ h1 {
     text-decoration: none;
     color: #DD362B;
     text-shadow: 0.15vw 0.15vw #fff;
+    -webkit-touch-text-shadow: 0.15vw 0.15vw #fff;
 }
 #header-title:hover {
     text-align: center;
@@ -48,6 +48,9 @@ h2 {
     margin: 0;
     overflow: hidden;
     white-space: nowrap;
+    user-select: none;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;
 }
 h2 a {
     display: block;
@@ -150,9 +153,6 @@ h4 {
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 450px) {
-
-}
 .content {
   padding: 1vh 0;
 }
@@ -183,7 +183,9 @@ h4 {
 .column img {
     vertical-align: middle;
 }
-img{-webkit-user-drag: none;} /*stops img ghost dragging */
+img { /*stops img ghost dragging */
+    -webkit-user-drag: none;
+} 
 .progress {
   position: fixed;
   top: 0;
