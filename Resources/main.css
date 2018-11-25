@@ -129,30 +129,29 @@ h4 {
     .progress-bar {
         height: 3px !important;
     }
-}
-@media only screen and (max-width: 450px) {
-    .overlay a {
-        font-size: 20px;
-    }
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-    .iframeLeft {
-        width: 10% !important;
-        float: left;
-    }
-    .iframeCenter {
-        width: 70% !important;
+    #iframeCenter {
+        width: 80% !important;
         float: left !important;
         text-align: none !important;
+    }
+    .iframeLeft {
+        width: 5% !important;
+        float: left;
+    }
+    .iframeRight {
+        width: 15% !important;
     }
     .overlay .closebtn {
         position: absolute;
         right: 3vw;
         font-size: 13vw !important;
     }
+    .overlay a {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 450px) {
+
 }
 .content {
   padding: 1vh 0;
