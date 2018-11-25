@@ -13,8 +13,13 @@ function myFunction() {
     document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-var i;
-
+function openNav() {
+    document.getElementById("myNav").style.display = "block";
+    }
+    
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+}
 var eachImg = ["BjFQmnjnFh_", "BjFQqXDHEIb", "BjFRERWHs3v", "BjHeSKwnP0x",  "Bh_ZcF_neiE", "BgTM2MpBrB5"];
 function openInstaFrame(i) {
     document.getElementById("instaFrame").style.display = "block";

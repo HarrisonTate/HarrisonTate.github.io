@@ -16,7 +16,6 @@ body {margin: 0;}
     width: 95%;
     margin: 0 auto;
 }
-
 #navbar {
     background-color: #0F1E3C;
     overflow: hidden;
@@ -152,6 +151,10 @@ h4 {
     .overlay a {
         font-size: 20px;
     }
+    .menu {
+        margin-top: 11% !important;
+        font-size: 7vw !important;
+    }
 }
 .content {
   padding: 1vh 0;
@@ -229,6 +232,13 @@ img { /*stops img ghost dragging */
     font-size: 7vw;
     z-index: 2;
 }
+
+.overlay-contents {
+    top: 25%;
+    text-align: center;
+    font-size: 36px;
+}
+
 .iframeLeft { 
     width: 30%; 
     float: left;
@@ -244,4 +254,9 @@ img { /*stops img ghost dragging */
 }
 .linkedImgs {
     cursor: pointer;
+}
+.menu {
+    margin-top: 5%;
+    font-size: 3vw;
+    color: white;
 }
