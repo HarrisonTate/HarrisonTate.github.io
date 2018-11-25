@@ -18,7 +18,7 @@ var i;
 var eachImg = ["BjFQmnjnFh_", "BjFQqXDHEIb", "BjFRERWHs3v", "BjHeSKwnP0x",  "Bh_ZcF_neiE", "BgTM2MpBrB5"];
 function openNav(i) {
     document.getElementById("myNav").style.display = "block";
-    var imgSetter = "http://instagram.com/p/" + eachImg[i] + "/embed"
+    var imgSetter = "https://instagram.com/p/" + eachImg[i] + "/embed"
     document.getElementById("iframeCenter").src = imgSetter;
 } 
 function closeNav() {
