@@ -33,7 +33,7 @@ h1 {
     text-decoration: none;
     color: #DD362B;
     text-shadow: 0.15vh 0.15vh #fff;
-    -webkit-touch-text-shadow: 0.15vw 0.15vw #fff;
+    -webkit-touch-text-shadow: 0.15vh 0.15vh #fff;
 }
 #header-title:hover {
     text-align: center;
