@@ -1,3 +1,9 @@
+function openInstaFrame(i) {
+    document.getElementById("instaFrame").style.display = "block";
+    var eachImg = ["BjFQmnjnFh_", "BjFQqXDHEIb", "BjFRERWHs3v", "BjHeSKwnP0x",  "Bh_ZcF_neiE", "BgTM2MpBrB5"];
+    var imgSetter = "https://instagram.com/p/" + eachImg[i] + "/embed"
+    document.getElementById("iframeCenter").src = imgSetter;
+} 
 window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -20,14 +26,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.display = "none";
 }
-
-function openInstaFrame(i) {
-    document.getElementById("instaFrame").style.display = "block";
-    var eachImg = ["BjFQmnjnFh_", "BjFQqXDHEIb", "BjFRERWHs3v", "BjHeSKwnP0x",  "Bh_ZcF_neiE", "BgTM2MpBrB5"];
-    var imgSetter = "https://instagram.com/p/" + eachImg[i] + "/embed"
-    document.getElementById("iframeCenter").src = imgSetter;
-} 
-
 function closeInstaFrame() {
     document.getElementById("instaFrame").style.display = "none";
 } 
