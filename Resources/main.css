@@ -262,6 +262,7 @@ img { /*stops img ghost dragging */
     margin-top: 5%;
     font-size: 3vw;
     color: white;
+    cursor: pointer;
 }
 h4 a {
     text-decoration: none;
