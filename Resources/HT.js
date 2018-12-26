@@ -18,11 +18,9 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
 }
-
 function openNav() {
     document.getElementById("myNav").style.display = "block";
-}
-    
+}  
 function closeNav() {
     document.getElementById("myNav").style.display = "none";
 }

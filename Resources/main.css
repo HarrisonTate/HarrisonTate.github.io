@@ -255,8 +255,31 @@ img { /*stops img ghost dragging */
 .linkedImgs {
     cursor: pointer;
 }
+.linkedImgs:hover {
+    padding: 0;
+}
 .menu {
     margin-top: 5%;
     font-size: 3vw;
     color: white;
 }
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* h1 {
+    font-family: supergroup_heavy, Arial, Lucida Grande, 宋体, SimSun, 华文细黑, STXihei, sans-serif;
+    font-size: 5em;
+    line-height: .8em;
+    text-align: center;
+    letter-spacing: .2em;
+    margin-bottom: 0;
+    color: rgba(255, 40, 33, 0.87);
+    text-shadow: 0 0 40px rgba(227, 22, 11, 0.51);
+    text-transform: none;
+    letter-spacing: .06em;
+    border: none;
+    opacity: 1;
+    -webkit-text-stroke: 1.6px #ff3f3f
+    } */
