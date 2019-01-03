@@ -19,6 +19,8 @@ body {margin: 0;}
 #navbar {
     background-color: #0F1E3C;
     overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 #navbar a{
     display: block;
@@ -83,7 +85,7 @@ h3 {
     height: 2vw;
 }
 .navspace {
-    height: 2vw;
+    height: 10vw;
 }
 .profile-picture {
     background-color: #6e7376;
@@ -122,9 +124,6 @@ h4 {
     h1 {
         font-size: 5vw;
     }
-    .sticky + .content {
-      padding-top: 20% !important;
-    }
     #pp {
         margin: 15px 0;
     }
@@ -154,6 +153,9 @@ h4 {
     .menu {
         margin-top: 11% !important;
         font-size: 7vw !important;
+    }
+    .navspace {
+        height: 25vw;
     }
 }
 .content {
