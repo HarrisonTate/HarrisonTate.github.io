@@ -1,2 +1,9 @@
+# Project dependencies
+.cache
+node_modules
+
+# Build directory
 .DS_Store
-.vscode
+config.env
+apiKeys.*
+img/.DS_Store
